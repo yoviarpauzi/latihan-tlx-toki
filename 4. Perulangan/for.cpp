@@ -1,12 +1,13 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int n, b, hasil = 0;
+    int n, a = 0;
     cin >> n;
-    for(int i = 0; i < n; i++){
-        cin >> b;
-        hasil += b;
+    int b[n];
+    for(int i = 0; i < n ; i++){
+        cin >> b[i];
+        a += b[i];
     }
-    cout << hasil;
+    cout << a;
     return 0;
 }

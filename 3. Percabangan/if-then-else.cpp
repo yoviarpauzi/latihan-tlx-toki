@@ -5,10 +5,10 @@ int main(){
     cin >> n;
     if(n > 0){
         cout << "positif";
-    }else if(n < 0){
-        cout << "negatif";
-    }else{
+    }else if(n == 0){
         cout << "nol";
+    }else{
+        cout << "negatif";
     }
     return 0;
 }

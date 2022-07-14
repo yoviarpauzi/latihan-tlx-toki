@@ -3,9 +3,9 @@ using namespace std;
 int main(){
     int n;
     cin >> n;
-    if(n > 0 && n < 10){
+    if(n >= 0 && n < 10){
         cout << "satuan";
-    }else if(n >= 10 && n <100){
+    }else if(n >= 10 && n < 100){
         cout << "puluhan";
     }else if(n >= 100 && n < 1000){
         cout << "ratusan";

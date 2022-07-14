@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 int main(){
-    char kata[100];
-    while(scanf("%s", kata) != EOF){
-        cout << kata << endl;
+    char input[101];
+    while(scanf("%s", input) != EOF){
+        cout << input << endl;
     }
     return 0;
 }

@@ -11,6 +11,8 @@ int main(){
         }
         if(i != n){
             cout << " ";
+        }else{
+            printf("\n");
         }
     }
     return 0;

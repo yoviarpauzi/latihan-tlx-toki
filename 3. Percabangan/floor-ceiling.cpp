@@ -2,9 +2,9 @@
 using namespace std;
 int main(){
     float n;
-    int f, c;
     cin >> n;
-    f = floor(n);
-    c = ceil(n);
-    printf("%i %i", f, c);
+    int f = floor(n);
+    int c = ceil(n);
+    cout << f << " " << c;
+    return 0;
 }

@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int a, hasil = 0;
+    int a, b = 0;
     while(scanf("%i", &a) != EOF){
-        hasil += a;
+        b += a;
     }
-    cout << hasil;
+    cout << b;
     return 0;
 }
